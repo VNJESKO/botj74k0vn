@@ -12,8 +12,7 @@ function createBot() {
     host: 'tm9271.aternos.me', // Thay bằng IP server của bạn (bỏ :port)
     port: 17843,                  // Thay bằng số Port của bạn
     username: 'BotAFK_Aternos',   // Tên của bot trong game
-    version: false                // Tự động nhận diện phiên bản server
-  });
+    version: false                // Tự động nhận diện phiên bản server });
 
   bot.on('spawn', () => {
     console.log('Bot đã vào server thành công!');
